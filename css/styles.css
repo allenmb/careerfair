@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background: #F9F9F9;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    /*background-color: aliceblue;*/
+}
+
+h2,
+h3 {
+    text-align: center;
+    padding: 1.5em 0;
+    margin: 0 10em;
+}
+
+h4 {
+    text-align: center;
+    margin: 1em 14em;
+}
+
+h6 {
+    text-align: center;
+    padding: 1em;
+    margin: 0 20em;
+    font-size: 1em;
+}
+
+p {
+    text-align: center;
+    margin: 1em 10em
+}
+
+.col-lg,
+.food {
+    padding: 1.5em;
+    margin: 0 10em;
+
+}
+.col-md{
+    margin: 1em;
+}
+
+.foodlist {
+    margin: 0, 10em;
+}
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.masonry {
+    /* Masonry container */
+    column-count: 1;
+    column-gap: 1.5em;
+    margin: 0 10em;
+    padding: 1.5em;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    /* Masonry bricks or child elements */
+    display: inline-block;
+    background: #fff;
+    padding: 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+hr.review {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.about_img {
+    float: left;
+    margin-top: 0;
+    margin-left: 12em;
+    margin-right: 1.5em;
+}
+
+.resource_img {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 3em;
+    margin-left: 15em;
+    margin-right: 1.5em;
+}
+
+.about_text {
+    text-align: left;
+    margin-left: 28.5em;
+    margin-top: 1.5em;
+}
+
+.resource_text {
+    text-align: left;
+    margin-left: 20em;
+    margin-top: 0em;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    display: block;
+    margin-top: 5em;
+}
